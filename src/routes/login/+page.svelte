@@ -3,12 +3,19 @@
 	import Button from "$lib/components/Button.svelte";
     import Input from "$lib/components/Input.svelte";
 	import { onMount } from "svelte";
+	import { slide } from "svelte/transition";
 
     onMount(() => {
         if (sessionStorage.getItem("auth")) {
 			window.location.href = "/";
 		}
+
+        setTimeout(() => {
+            toggler = false;
+        }, 500);
     })
+
+    let toggler: boolean = $state(true);
 
     let name: string = $state("");
     let password: string = $state("");
@@ -27,6 +34,11 @@
     }
 
 </script>
+
+{#if toggler}
+    <!-- svelte-ignore element_invalid_self_closing_tag -->
+    <div transition:slide={{duration: 500}} class="toggler"/>
+{/if}
 
 <div class="auth-wrapper">
     <form class="auth">
@@ -102,5 +114,13 @@
 
     .glowing {
         text-shadow: 0 0 12px #fff;
+    }
+
+    .toggler {
+        position: absolute;
+        z-index: 10;
+        background: #222;
+        width: 100vw;
+        height: 100vh;
     }
 </style>
