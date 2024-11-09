@@ -1,0 +1,230 @@
+{
+    "games": [
+        {
+            "name": "Red Dead Redemption 2",
+            "author": "Rockstar Games",
+            "releaseYear": "2019",
+            "usersRating": "Very positive", 
+            "genre": "Adventure/Action/Open World",
+            "price": 11500,
+            "russianDubbing": true
+            
+        },
+        {
+            "name": "Cyberpunk 2077",
+            "author": "CD Projekt Red",
+            "releaseYear": "2020",
+            "usersRating": "Mixed",
+            "genre": "RPG/Action",
+            "price": 10500,
+            "russianDubbing": true
+        },
+        {
+            "name": "The Last of Us Part II",
+            "author": "Naughty Dog",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "Action/Adventure",
+            "price": 9000,
+            "russianDubbing": true
+        },
+        {
+            "name": "Ghost of Tsushima",
+            "author": "Sucker Punch Productions",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "Action/Adventure",
+            "price": 9500,
+            "russianDubbing": true
+        },
+        {
+            "name": "Assassin's Creed Valhalla",
+            "author": "Ubisoft",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "Action/RPG",
+            "price": 11500,
+            "russianDubbing": true
+        },
+        {
+            "name": "Doom Eternal",
+            "author": "id Software",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "Action/Shooter",
+            "price": 9500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Hades",
+            "author": "Supergiant Games",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "Rogue-like/Action",
+            "price": 7000,
+            "russianDubbing": false
+        },
+        {
+            "name": "Genshin Impact",
+            "author": "miHoYo",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "Action/RPG",
+            "price": 0,
+            "russianDubbing": true
+        },
+        {
+            "name": "Valorant",
+            "author": "Riot Games",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "FPS/Multiplayer",
+            "price": 0,
+            "russianDubbing": false
+        },
+        {
+            "name": "Among Us",
+            "author": "Innersloth",
+            "releaseYear": "2018",
+            "usersRating": "Very positive",
+            "genre": "Party/Multiplayer",
+            "price": 2000,
+            "russianDubbing": false
+        },
+        {
+            "name": "Fall Guys: Ultimate Knockout",
+            "author": "Mediatonic",
+            "releaseYear": "2020",
+            "usersRating": "Very positive",
+            "genre": "Party/Multiplayer",
+            "price": 3500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Resident Evil Village",
+            "author": "Capcom",
+            "releaseYear": "2021",
+            "usersRating": "Very positive",
+            "genre": "Survival Horror",
+            "price": 10500,
+            "russianDubbing": true
+        },
+        {
+            "name": "Forza Horizon 5",
+            "author": "Playground Games",
+            "releaseYear": "2021",
+            "usersRating": "Very positive",
+            "genre": "Racing",
+            "price": 11500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Metroid Dread",
+            "author": "MercurySteam",
+            "releaseYear": "2021",
+            "usersRating": "Very positive",
+            "genre": "Action/Adventure",
+            "price": 8500,
+            "russianDubbing": false
+        },
+        {
+            "name": "It Takes Two",
+            "author": "Hazelight Studios",
+            "releaseYear": "2021",
+            "usersRating": "Very positive",
+            "genre": "Co-op/Adventure",
+            "price": 7500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Returnal",
+            "author": "Housemarque",
+            "releaseYear": "2021",
+            "usersRating": "Very positive",
+            "genre": "Rogue-like/Shooter",
+            "price": 9000,
+            "russianDubbing": false
+        },
+        {
+            "name": "Monster Hunter Rise",
+            "author": "Capcom",
+            "releaseYear": "2021",
+            "usersRating": "Very positive",
+            "genre": "Action/RPG",
+            "price": 9500,
+            "russianDubbing": true
+        },
+        {
+            "name": "Elden Ring",
+            "author": "FromSoftware",
+            "releaseYear": "2022",
+            "usersRating": "Very positive",
+            "genre": "Action/RPG",
+            "price": 11500,
+            "russianDubbing": false
+        },
+        {
+            "name": "God of War Ragnarök",
+            "author": "Santa Monica Studio",
+            "releaseYear": "2022",
+            "usersRating": "Very positive",
+            "genre": "Action/Adventure",
+            "price": 11500,
+            "russianDubbing": true
+        },
+        {
+            "name": "Stray",
+            "author": "BlueTwelve Studio",
+            "releaseYear": "2022",
+            "usersRating": "Very positive",
+            "genre": "Adventure/Indie",
+            "price": 4500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Sifu",
+            "author": "Sloclap",
+            "releaseYear": "2022",
+            "usersRating": "Very positive",
+            "genre": "Action/Fighting",
+            "price": 6500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Hogwarts Legacy",
+            "author": "Portkey Games",
+            "releaseYear": "2023",
+            "usersRating": "Very positive",
+            "genre": "Action/RPG",
+            "price": 11500,
+            "russianDubbing": true
+        },
+        {
+            "name": "Starfield",
+            "author": "Bethesda Game Studios",
+            "releaseYear": "2023",
+            "usersRating": "Very positive",
+            "genre": "RPG/Space",
+            "price": 11500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Civilization 7",
+            "author": "Firaxis Games",
+            "releaseYear": "TBA",
+            "usersRating": "N/A",
+            "genre": "Strategy",
+            "price": 11500,
+            "russianDubbing": false
+        },
+        {
+            "name": "Resident Evil 4 Remake",
+            "author": "Capcom",
+            "releaseYear": "2023",
+            "usersRating": "Very positive",
+            "genre": "Survival Horror",
+            "price": 10500,
+            "russianDubbing": true
+        }
+    ]
+}

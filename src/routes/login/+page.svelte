@@ -2,12 +2,16 @@
 	import { goto } from "$app/navigation";
 	import Button from "$lib/components/Button.svelte";
     import Input from "$lib/components/Input.svelte";
+	import { user } from "$lib/stores/user";
 	import { onMount } from "svelte";
 	import { slide } from "svelte/transition";
 
     onMount(() => {
-        if (sessionStorage.getItem("auth")) {
-			window.location.href = "/";
+        // if (localStorage.getItem("auth")) {
+		// 	goto("/");
+		// }
+        if ($user.nickname !== "" && $user.password !== "") {
+			goto("/");
 		}
 
         setTimeout(() => {
@@ -28,7 +32,7 @@
             return
         } else {
             error = false;
-            sessionStorage.setItem("auth", name);
+            $user = {nickname: name, password: password};
             goto("/");
         }
     }

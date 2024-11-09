@@ -2,19 +2,21 @@
 	import { goto } from "$app/navigation";
 	import { slide } from "svelte/transition";
     import LogoutIcon from "../assets/logout.svg"
+	import { user } from "$lib/stores/user";
 
     let toggler: boolean = $state(false);
 
     const handleClick = () => {
         toggler = true;
         setTimeout(() => {
-            sessionStorage.removeItem("auth");
+            // localStorage.removeItem("auth");
+            $user = {nickname: "", password: ""};
             goto("/login");
             toggler = false
         }, 2000)
     }
 
-    let authName: string | null = $derived(sessionStorage.getItem("auth"));
+    let authName: string | null = $derived($user.nickname);
 
 </script>
 
