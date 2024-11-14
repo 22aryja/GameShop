@@ -9,11 +9,11 @@
 	// 	}
 	// })
 
-	onMount(() => {
-		if ($user.nickname === "" && $user.password === "") {
-			goto("/login");
-		}
-	})
+	// onMount(() => {
+	// 	if ($user.nickname === "" && $user.password === "") {
+	// 		goto("/login");
+	// 	}
+	// })
 </script>
 
 <slot />

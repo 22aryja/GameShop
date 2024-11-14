@@ -5,8 +5,8 @@ export type Game = {
     usersRating: string, 
     genre: string,
     price: number,
-    ussianDubbing: boolean
-    preview?: string
+    russianDubbing: boolean
+    image: string
 }
 
 export type Games = {

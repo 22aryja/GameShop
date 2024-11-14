@@ -7,8 +7,8 @@
             "usersRating": "Very positive", 
             "genre": "Adventure/Action/Open World",
             "price": 11500,
-            "russianDubbing": true
-            
+            "russianDubbing": true,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqC8lXryOKJcOxoN4j61dkpfLoQL8T4Vqsg&s"
         },
         {
             "name": "Cyberpunk 2077",
@@ -17,7 +17,8 @@
             "usersRating": "Mixed",
             "genre": "RPG/Action",
             "price": 10500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OtNYofKriu0yY0vvkoEAj_tQi9SaupJpZw&s"
         },
         {
             "name": "The Last of Us Part II",
@@ -26,7 +27,8 @@
             "usersRating": "Very positive",
             "genre": "Action/Adventure",
             "price": 9000,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjIXJ2PcgRkfF5ZKdCyXkbNgnxeA_TAoBww&s"
         },
         {
             "name": "Ghost of Tsushima",
@@ -215,7 +217,8 @@
             "usersRating": "N/A",
             "genre": "Strategy",
             "price": 11500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://upload.wikimedia.org/wikipedia/ru/f/f7/Civilization_VII.png"
         },
         {
             "name": "Resident Evil 4 Remake",

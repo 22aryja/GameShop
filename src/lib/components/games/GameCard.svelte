@@ -2,40 +2,42 @@
     import emptyPic from "$lib/assets/empty.jpg"
 	import type { Game } from "$lib/types/games";
 
-    // export let game: Game;
+    export let game: Game;
 </script>
 
 <div class="card">
     <section class="card-image">
-        <img src={emptyPic} alt="no-pic" />
+        {#if game.image}
+            <img src={game.image} alt="game-pic" />
+        {:else}
+            <img src={emptyPic} alt="no-pic" />
+        {/if}
     </section>
 
     <section class="card-demo">
         <div class="card-demo-desc">
             <span class="card-demo-desc-item">
                 <h1>Name:</h1>
-                <h1>Something</h1>
+                <h1 class="card-demo-desc-item-name">{game.name}</h1>
             </span>
 
             <span class="card-demo-desc-item">
                 <p>Author:</p>
-                <p>Something</p>
+                <p>{game.author}</p>
             </span>
 
             <span class="card-demo-desc-item">
                 <p>Release date:</p>
-                <p>Something</p>
+                <p>{game.releaseYear}</p>
             </span>
         </div>
 
-        <!-- svelte-ignore a11y_label_has_associated_control -->
-        <label class="readmore">Read more</label>
+        <span class="card-demo-desc-price">{game.price}тг</span>
     </section>
 </div>
 
 <style lang="scss">
     .card {
-        margin-top: 200px;
         display: flex;
         flex-direction: column;
         border-radius: 12px;
@@ -43,6 +45,8 @@
         width: 300px;
         height: 375px;
         overflow: hidden;
+        user-select: none;
+        transition: ease-in-out 0.33s;
 
         &-image {
             width: 100%;
@@ -50,6 +54,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 12px;
         }
 
         &-demo {
@@ -70,8 +75,35 @@
                     align-items: center;
                     font-size: 14px;
                     color: rgb(197, 191, 191);
+
+                    &-name {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        font-size: 125%;
+                        white-space: nowrap;
+                        word-wrap: none;
+                        text-overflow: ellipsis;
+                        -webkit-line-clamp: 1;
+                    }
+                }
+
+                &-price {
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 24px;
+                    text-decoration: underline;
                 }
             }
+        }
+
+        &:hover {
+            scale: 1.1;
+            box-shadow: 0 0 30px #ffffffd0;
+            border: 1px solid #ffffffd0;
         }
     }
 
@@ -84,6 +116,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 6px;
     }
 
     h1 {
