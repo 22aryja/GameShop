@@ -32,7 +32,7 @@
             </span>
         </div>
 
-        <span class="card-demo-desc-price">{game.price}тг</span>
+        <span class="card-demo-desc-price">{game.price !=0 ? `${game.price}тг` : "FREE"}</span>
     </section>
 </div>
 

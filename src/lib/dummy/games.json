@@ -8,7 +8,7 @@
             "genre": "Adventure/Action/Open World",
             "price": 11500,
             "russianDubbing": true,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqC8lXryOKJcOxoN4j61dkpfLoQL8T4Vqsg&s"
+            "image": "https://cdn1.epicgames.com/b30b6d1b4dfd4dcc93b5490be5e094e5/offer/RDR2476298253_Epic_Games_Wishlist_RDR2_2560x1440_V01-2560x1440-2a9ebe1f7ee202102555be202d5632ec.jpg?resize=1&w=480&h=270&quality=medium"
         },
         {
             "name": "Cyberpunk 2077",
@@ -18,7 +18,7 @@
             "genre": "RPG/Action",
             "price": 10500,
             "russianDubbing": true,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OtNYofKriu0yY0vvkoEAj_tQi9SaupJpZw&s"
+            "image": "https://cdn.forbes.com.mx/2023/08/Cyberpunk-2077-640x360.webp"
         },
         {
             "name": "The Last of Us Part II",
@@ -28,7 +28,7 @@
             "genre": "Action/Adventure",
             "price": 9000,
             "russianDubbing": true,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjIXJ2PcgRkfF5ZKdCyXkbNgnxeA_TAoBww&s"
+            "image": "https://i0.wp.com/www.teilzeithelden.de/wp-content/uploads/2020/10/The-Last-of-Us-Part-II-Rant-Analysis-Header-%C2%A9-Naughty-Dog.png?fit=1068%2C580&ssl=1"
         },
         {
             "name": "Ghost of Tsushima",
@@ -37,7 +37,8 @@
             "usersRating": "Very positive",
             "genre": "Action/Adventure",
             "price": 9500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://www.glitched.online/wp-content/uploads/2020/02/ghost-of-tsushima-desktop-wallpaper011.jpg"
         },
         {
             "name": "Assassin's Creed Valhalla",
@@ -46,7 +47,8 @@
             "usersRating": "Very positive",
             "genre": "Action/RPG",
             "price": 11500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://xxboxnews.blob.core.windows.net/prod/sites/2/2021/12/HORIZONTAL_CROP_3840x2160_EN_JPG.jpg"
         },
         {
             "name": "Doom Eternal",
@@ -55,7 +57,8 @@
             "usersRating": "Very positive",
             "genre": "Action/Shooter",
             "price": 9500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://simoncoenen.com/images/blog/010_doom_eternal_study/image1.jpeg"
         },
         {
             "name": "Hades",
@@ -64,7 +67,8 @@
             "usersRating": "Very positive",
             "genre": "Rogue-like/Action",
             "price": 7000,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_616x353.jpg?t=1715722799"
         },
         {
             "name": "Genshin Impact",
@@ -73,7 +77,8 @@
             "usersRating": "Very positive",
             "genre": "Action/RPG",
             "price": 0,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://assets-prd.ignimgs.com/2022/09/28/horizontalv2-1664401688863.png"
         },
         {
             "name": "Valorant",
@@ -82,7 +87,8 @@
             "usersRating": "Very positive",
             "genre": "FPS/Multiplayer",
             "price": 0,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://i.ytimg.com/vi/BQb-MiquFG0/hq720.jpg?v=67239ad4&sqp=CJy5jrkG-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAgb2yF4z-neOkwe7kqfzIb-qMRJg"
         },
         {
             "name": "Among Us",
@@ -91,7 +97,8 @@
             "usersRating": "Very positive",
             "genre": "Party/Multiplayer",
             "price": 2000,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_988021-CBT75578024976_042024-O.webp"
         },
         {
             "name": "Fall Guys: Ultimate Knockout",
@@ -100,7 +107,8 @@
             "usersRating": "Very positive",
             "genre": "Party/Multiplayer",
             "price": 3500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Fall_Guys_Post_F2P_keyart.png"
         },
         {
             "name": "Resident Evil Village",
@@ -109,7 +117,8 @@
             "usersRating": "Very positive",
             "genre": "Survival Horror",
             "price": 10500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://www.residentevildatabase.com/wp-content/uploads/2020/06/resident-evil-village-RE8-logo-white.jpg"
         },
         {
             "name": "Forza Horizon 5",
@@ -118,7 +127,8 @@
             "usersRating": "Very positive",
             "genre": "Racing",
             "price": 11500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1730830713"
         },
         {
             "name": "Metroid Dread",
@@ -127,7 +137,8 @@
             "usersRating": "Very positive",
             "genre": "Action/Adventure",
             "price": 8500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://i.ytimg.com/vi/7von46uQ8j0/maxresdefault.jpg"
         },
         {
             "name": "It Takes Two",
@@ -136,7 +147,8 @@
             "usersRating": "Very positive",
             "genre": "Co-op/Adventure",
             "price": 7500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://2game.com/wp/wp-content/uploads/2021/02/IT2-Key-Art-Standard-Logo-Horizontal-4K_1-scaled.jpg"
         },
         {
             "name": "Returnal",
@@ -145,7 +157,8 @@
             "usersRating": "Very positive",
             "genre": "Rogue-like/Shooter",
             "price": 9000,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://images.squarespace-cdn.com/content/v1/5ef0e867f185405a3b90fc55/1691497855620-O4S4OM8SJXO8I8PQDGSK/Cypher_Creative__0001_Returnal_Logo_Tagline.jpg?format=2500w"
         },
         {
             "name": "Monster Hunter Rise",
@@ -154,7 +167,8 @@
             "usersRating": "Very positive",
             "genre": "Action/RPG",
             "price": 9500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000029016/b6ca09e9a7f6faf27641f62dabe64c6ff97b4f326aa478379e3c112aa28eb9ab"
         },
         {
             "name": "Elden Ring",
@@ -163,7 +177,8 @@
             "usersRating": "Very positive",
             "genre": "Action/RPG",
             "price": 11500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://mountonline.org/wp-content/uploads/2022/04/elden-ring-cover-1.jpg"
         },
         {
             "name": "God of War Ragnarök",
@@ -172,7 +187,8 @@
             "usersRating": "Very positive",
             "genre": "Action/Adventure",
             "price": 11500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg?w=440"
         },
         {
             "name": "Stray",
@@ -181,7 +197,8 @@
             "usersRating": "Very positive",
             "genre": "Adventure/Indie",
             "price": 4500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://sightingames.wordpress.com/wp-content/uploads/2023/01/strayheader.jpg"
         },
         {
             "name": "Sifu",
@@ -190,7 +207,8 @@
             "usersRating": "Very positive",
             "genre": "Action/Fighting",
             "price": 6500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg?t=1727259952"
         },
         {
             "name": "Hogwarts Legacy",
@@ -199,7 +217,8 @@
             "usersRating": "Very positive",
             "genre": "Action/RPG",
             "price": 11500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_HogwartsLegacy_image1600w.jpg"
         },
         {
             "name": "Starfield",
@@ -208,7 +227,8 @@
             "usersRating": "Very positive",
             "genre": "RPG/Space",
             "price": 11500,
-            "russianDubbing": false
+            "russianDubbing": false,
+            "image": "https://lh3.googleusercontent.com/proxy/KiHEpAnJSXIiNpNA5lj5XCc_P_ZIFpPWBHbVKmxA5x-w0toYS-VVM_rFz6Rheh9w8lOdwUHL0NTvwcMzDeYOt2i0BvtXTesjHZMxxuvYISaGgGzgI3MaZlqzWx31DocU73aD9-Nbl7DeJEn_8pxYrETOPO-1"
         },
         {
             "name": "Civilization 7",
@@ -227,7 +247,8 @@
             "usersRating": "Very positive",
             "genre": "Survival Horror",
             "price": 10500,
-            "russianDubbing": true
+            "russianDubbing": true,
+            "image": "https://www.bazicenter.com/wp-content/uploads/2023/09/Resident-Evil-4-Remake.jpeg"
         }
     ]
 }
