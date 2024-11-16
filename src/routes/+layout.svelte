@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from "$app/navigation";
+	import Header from "$lib/components/Header.svelte";
 	import { user } from "$lib/stores/user";
 	import { onMount } from "svelte";
 
@@ -16,6 +17,7 @@
 	// })
 </script>
 
+<Header />
 <slot />
 
 <style lang="scss">

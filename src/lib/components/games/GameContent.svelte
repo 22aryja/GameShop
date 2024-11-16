@@ -2,14 +2,30 @@
     import GameCard from "./GameCard.svelte";
     import data from "$lib/dummy/games.json";
 	import type { Games } from "$lib/types/games";
+	import Checkbox from "../Checkbox.svelte";
 
     let games: Games = data as Games;
 
+    let releaseYears: string[] = [];
+
 </script>
 
+<!-- <div>
+    <section>
+        <h1>Release Year</h1>
+        <p>
+            <span>
+                <span>2019</span>
+                <Checkbox on:click={() => releaseYears.push("2019")} />
+            </span>
+            
+        </p>
+    </section>
+</div> -->
+
 <div class="content">
-    {#each games.games as game}
-        <GameCard {game} />
+    {#each games.games as game, index}
+        <GameCard {game} id={index + 1}/>
     {/each}
 </div>
 

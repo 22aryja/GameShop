@@ -1,11 +1,14 @@
 <script lang="ts">
+	import { goto } from "$app/navigation";
     import emptyPic from "$lib/assets/empty.jpg"
 	import type { Game } from "$lib/types/games";
 
-    export let game: Game;
+    let { game, id}: {game: Game, id: number} = $props();
 </script>
 
-<div class="card">
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<div class="card" on:click={() => goto(`/${id}`)}>
     <section class="card-image">
         {#if game.image}
             <img src={game.image} alt="game-pic" />
