@@ -35,14 +35,15 @@
             </span>
         </div>
 
-        <span class="card-demo-desc-price">{game.price !=0 ? `${game.price}тг` : "FREE"}</span>
+        <span class="card-demo-desc-price">{game.price !=0 ? `${game.price}₸` : "FREE"}</span>
     </section>
 </div>
 
 <style lang="scss">
+    @use "/src/lib/styles/mixins.scss" as *;
+
     .card {
-        display: flex;
-        flex-direction: column;
+        @include flexColumn;
         border-radius: 12px;
         background: #222;
         width: 300px;
@@ -55,8 +56,7 @@
             width: 100%;
             height: 50%;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            @include jcc-aic;
             padding: 12px;
         }
 
@@ -64,13 +64,11 @@
             width: 100%;
             height: 50%;
             padding: 12px;
-            display: flex;
-            flex-direction: column;
+            @include flexColumn;
             justify-content: space-between;
             
             &-desc {
-                display: flex;
-                flex-direction: column;
+                @include flexColumn;
                 gap: 15px;
 
                 &-item {
@@ -80,10 +78,8 @@
                     color: rgb(197, 191, 191);
 
                     &-name {
-                        display: flex;
-                        align-items: center;
-                        width: 100%;
-                        height: 100%;
+                        @include flex-aic;
+                        @include weightHeight100;
                         font-size: 125%;
                         white-space: nowrap;
                         word-wrap: none;
@@ -95,8 +91,7 @@
                 &-price {
                     display: flex;
                     width: 100%;
-                    justify-content: center;
-                    align-items: center;
+                    @include jcc-aic;
                     font-size: 24px;
                     text-decoration: underline;
                 }
@@ -116,17 +111,8 @@
     }
 
     img {
-        width: 100%;
-        height: 100%;
+        @include weightHeight100;
         object-fit: cover;
         border-radius: 6px;
-    }
-
-    h1 {
-        margin: 0;
-    }
-
-    p {
-        margin: 0;
     }
 </style>

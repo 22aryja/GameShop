@@ -77,9 +77,10 @@
 </div>
 
 <style lang="scss">
+    @use "/src/lib/styles/mixins.scss" as *;
+
     .auth {
-        display: flex;
-        flex-direction: column;
+        @include flexColumn;
         justify-content: space-between;
 
         background-color: #222;
@@ -89,18 +90,15 @@
         padding: 12px 16px;
 
         &-wrapper {
-            width: 100%;
-            height: 100%;
-            display: flex;
+            @include weightHeight100;
+            @include flex-aic;
             justify-content: center;
-            align-items: center;
         }
 
         &-header {
-            display: flex;
+            @include flex-aic;
             width: 100%;
             justify-content: center;
-            align-items: center;
         }
 
         &-input {

@@ -8,6 +8,7 @@
 <button {disabled} {type} class={className} on:click>{text}</button>
 
 <style lang="scss">
+	@use "/src/lib/styles/mixins.scss" as *;
     button {
 		cursor: pointer;
 		flex-grow: 1;
@@ -15,8 +16,7 @@
 		border: none;
 		border-radius: 12px;
 		display: flex;
-		align-items: center;
-		justify-content: center;
+		@include jcc-aic;
 		padding: 12px;
 		width: 100%;
 		height: 45px;

@@ -35,9 +35,9 @@
 </div>
 
 <style lang="scss">
+    @use "/src/lib/styles/mixins.scss" as *;
     .field {
-        display: flex;
-		flex-direction: column;
+        @include flexColumn;
         position: relative;
     }
 

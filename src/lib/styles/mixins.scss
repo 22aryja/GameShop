@@ -1,0 +1,20 @@
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin jcc-aic {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-aic {
+    display: flex;
+    align-items: center;
+}
+
+@mixin weightHeight100 {
+    width: 100%;
+    height: 100%;
+}

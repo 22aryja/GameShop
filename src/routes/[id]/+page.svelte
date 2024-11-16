@@ -1,7 +1,9 @@
 <script lang="ts">
+	import { goto } from "$app/navigation";
     import { page } from "$app/stores";
 	import Button from "$lib/components/Button.svelte";
     import data from "$lib/dummy/games.json";
+	import { setPopupVisible } from "$lib/stores/user";
 	import type { Game, Games } from "$lib/types/games";
 
     let selectedGame: Game | undefined = (data as Games).games.find((_, index) => index === Number($page.params.id) - 1);
@@ -13,6 +15,11 @@
         if (rating === "Mixed") {
             return "yellow"
         }
+    }
+
+    const handleClick = () => {
+        goto("/");
+        setPopupVisible();
     }
 </script>
 
@@ -64,13 +71,14 @@
                     </span>
                 </div>
 
-                <Button text="Purchase" />
+                <Button text={`${selectedGame.price} ₸`} on:click={handleClick} />
             </div>
         </div>
     </article>
 {/if}
 
 <style lang="scss">
+    @use "/src/lib/styles/mixins.scss" as *;
     .card {
         padding: 12px;
         display: flex;
@@ -82,11 +90,9 @@
         gap: 1%;
 
         &-wrapper {
-            display: flex;
+            @include flex-aic;
             justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
+            @include weightHeight100;
         }
 
         &-image {
@@ -94,29 +100,24 @@
             position: relative;
 
             img {
-                width: 100%;
-                height: 100%;
+                @include weightHeight100;
                 object-fit: cover;
                 border-radius: 6px;
             }
         }
 
         &-info {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
+            @include flexColumn;
+            @include weightHeight100;
             gap: 5%;
 
             &-wrapper {
                 width: 50%;
-                display: flex;
-                flex-direction: column;
+                @include flexColumn;;
             }
 
             span {
-                display: flex;
-                align-items: center;
+                @include flex-aic;
                 font-size: 16px;
                 gap: 1%;
             }

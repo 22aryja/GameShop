@@ -50,6 +50,7 @@
 </div>
 
 <style lang="scss">
+    @use "/src/lib/styles/mixins.scss" as *;
     .header {
         display: flex;
         justify-content: space-between;
@@ -57,8 +58,7 @@
         padding: 0 20px;
 
         &-wrapper {
-            display: flex;
-            align-items: center;
+            @include flex-aic;
             width: 100vw;
             height: 7%;
             background: #222;
@@ -80,15 +80,13 @@
         box-shadow: 0 0 12px #fff;
 
         &-section {
-            display: flex;
-            align-items: center;
+            @include flex-aic;
             gap: 15px;
         }
     }
 
     .username {
-        display: flex;
-        align-items: center;
+        @include flex-aic;
         text-shadow: 0 0 12px #fff;
     }
 
