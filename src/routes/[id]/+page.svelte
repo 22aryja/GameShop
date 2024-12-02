@@ -160,4 +160,29 @@
     h1, h2 {
         font-size: 16px;
     }
+
+    @media (max-width: 768px) {
+        .card-wrapper {
+            .card {
+                flex-direction: column;
+
+                .card-image {
+                    width: 100%;
+                    height: 50%;
+                }
+
+                .card-info {
+                    
+                    h1, h2 {
+                        white-space: nowrap;
+                    }
+
+                    &-wrapper {
+                        width: 100%;
+                        height: 50%;
+                    }
+                }
+            }
+        }
+    }
 </style>

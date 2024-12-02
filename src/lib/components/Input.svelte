@@ -77,4 +77,10 @@
             border-color: rgb(226, 87, 87);
         }
     }
+
+    @media (max-width: 768px) {
+        input {
+            height: 40px;
+        }
+    }
 </style>
