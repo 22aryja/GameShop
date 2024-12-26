@@ -83,7 +83,7 @@
         padding: 12px;
         display: flex;
         border-radius: 12px;
-        background: #222;
+        background: var(--primary);
         width: 90%;
         height: 60%;
         border: 1px solid #ffffffd0;

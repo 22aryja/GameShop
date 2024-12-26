@@ -83,7 +83,7 @@
         @include flexColumn;
         justify-content: space-between;
 
-        background-color: #222;
+        background-color: var(--primary);
         width: 25vw;
         height: 35vh;
         border-radius: 16px;
@@ -121,7 +121,7 @@
     .toggler {
         position: absolute;
         z-index: 10;
-        background: #222;
+        background: var(--primary);
         width: 100vw;
         height: 100vh;
     }

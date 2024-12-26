@@ -1,23 +1,10 @@
 <script lang="ts">
-	import { goto } from "$app/navigation";
 	import { page } from "$app/stores";
 	import Header from "$lib/components/Header.svelte";
 	import Popup from "$lib/components/Popup.svelte";
-	import { popup, user } from "$lib/stores/user";
-	import { onMount } from "svelte";
+	import { popup } from "$lib/stores/user";
 	import { slide } from "svelte/transition";
 
-	// onMount(() => {
-	// 	if (!localStorage.getItem("auth") && window.location.pathname !== '/login') {
-	// 		window.location.href = '/login';
-	// 	}
-	// })
-
-	// onMount(() => {
-	// 	if ($user.nickname === "" && $user.password === "") {
-	// 		goto("/login");
-	// 	}
-	// })
 </script>
 
 {#if $page.route.id !== "/login"}

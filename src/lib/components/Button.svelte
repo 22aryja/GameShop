@@ -34,7 +34,7 @@
 		}
 
 		&:disabled {
-			background: #4a3475;
+			background: var(--secondary);
 			color: #646464;
 
 			&:hover {
